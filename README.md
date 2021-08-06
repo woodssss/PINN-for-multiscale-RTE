@@ -10,7 +10,7 @@ function, Nx is number of grid points on x direction, nl is number of hidden lay
 ```
 python rte_rg.py epsi bc_loss_weight Nx nl nr
 ```
-## 1D isotropic case with constant inflow B.C.
+## 1D isotropic case with boundary layer.
 ```
 python rte_rg_hsp.py epsi bc_loss_weight Nx nl nr
 ```
@@ -23,4 +23,8 @@ python hsp_rb_load.py
 hsp_2d_H and hsp_2d_reflec
 ```
 python load_Gamma_aux.py
+```
+rg_1d_epsi1 and rg_1d_epsizpzz1
+```
+python load_rte.py
 ```
