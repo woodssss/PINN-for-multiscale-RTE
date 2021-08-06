@@ -32,3 +32,7 @@ hsp_1d_bl_epsizppz1
 ```
 python load_rte_nonuni,py
 ```
+hsp_1d_two_materials
+```
+python load rte_sigma.py
+```
