@@ -40,8 +40,23 @@ Then
 ```
 python rte_rg_nonl_hsp.py epsi bc_loss_weight Nx nl nr
 ```
-
-
+## 2D RTE with constant boundary
+```
+python rte_2D.py epsi bc_loss_weight Nx nl nr
+```
+## 2D RTE with square boundary involved boundary layer
+Compute auxiliary hsp for each grid points on boundary parallelly
+```
+python hsp_rb_aux_para.py
+```
+Train 2D boundary layer corrector
+```
+python hsp_2d_aux_limit.py
+```
+Then
+```
+python rte_2d_hsp.py epsi bc_loss_weight Nx nl nr
+```
 # Figures in paper
 hsp_1d
 ```
