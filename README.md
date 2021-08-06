@@ -24,7 +24,11 @@ hsp_2d_H and hsp_2d_reflec
 ```
 python load_Gamma_aux.py
 ```
-rg_1d_epsi1 and rg_1d_epsizpzz1
+rg_1d_epsi1, rg_1d_epsizpzz1 and hsp_1d_bl_epsi1
 ```
 python load_rte.py
+```
+hsp_1d_bl_epsizppz1
+```
+python load_rte_nonuni,py
 ```
