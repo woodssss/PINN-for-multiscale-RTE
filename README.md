@@ -14,6 +14,14 @@ python rte_rg.py epsi bc_loss_weight Nx nl nr
 ```
 python rte_rg_hsp.py epsi bc_loss_weight Nx nl nr
 ```
+## 1D two materials.
+```
+python rte_rg_sigma.py epsi bc_loss_weight Nx nl nr
+```
+## 1D scattering function
+```
+python rte_rg_epsix.py
+```
 
 # Figures in paper
 hsp_1d
