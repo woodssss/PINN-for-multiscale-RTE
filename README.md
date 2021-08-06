@@ -63,7 +63,7 @@ hsp_1d_two_materials
 ```
 python load rte_sigma.py
 ```
-hsp_2d_bl_eps1
+hsp_2d_bl_eps1, hsp_2d_analytic
 ```
 python load_rte_2D.py
 ```
