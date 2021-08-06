@@ -11,6 +11,11 @@ function, Nx is number of grid points on x direction, nl is number of hidden lay
 python rte_rg.py epsi bc_loss_weight Nx nl nr
 ```
 ## 1D isotropic case with boundary layer.
+Firstly, compute the boundary layer corrector
+```
+python hsp_rb_msi.py
+```
+Then 
 ```
 python rte_rg_hsp.py epsi bc_loss_weight Nx nl nr
 ```
@@ -22,6 +27,20 @@ python rte_rg_sigma.py epsi bc_loss_weight Nx nl nr
 ```
 python rte_rg_epsix.py
 ```
+## 1D Nonlinear RTE with constant boundary
+```
+python rte_rg_nonl.py epsi bc_loss_weight Nx nl nr
+```
+## 1D Nonlinear RTE with boundary layer
+First, compute boundary layer corrector
+```
+python hsp_nonl_msi.py
+```
+Then 
+```
+python rte_rg_nonl_hsp.py epsi bc_loss_weight Nx nl nr
+```
+
 
 # Figures in paper
 hsp_1d
