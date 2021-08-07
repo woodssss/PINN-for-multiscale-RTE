@@ -78,6 +78,14 @@ hsp_1d_two_materials
 ```
 python load rte_sigma.py
 ```
+hsp_1d_ani_eps_1_g5, hsp_1d_ani_eps_zpzz1_g5_bl and hsp_1d_ani_eps_1_g5_bl
+```
+python load_rte_aniso.py
+```
+hsp_1d_ani_eps_zpzz1_g5_bl
+```
+python load_rte_aniso_nonuni.py
+```
 hsp_1d_nonl__eps_1_bl and hsp_1d_nonl_eps_1
 ```
 python load_rte_nonl.py
