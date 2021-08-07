@@ -19,6 +19,19 @@ Then
 ```
 python rte_rg_hsp.py epsi bc_loss_weight Nx nl nr
 ```
+## 1D anisotropic case with constant boundary
+```
+python rte_rg_aniso.py epsi bc_loss_weight Nx nl nr
+```
+## 1D anisotropic case with boundary layer
+Firstly, compute the boundary layer corrector
+```
+python hsp_rb_at_msi.py
+```
+Then 
+```
+python rte_rg_hsp_aniso.py epsi bc_loss_weight Nx nl nr
+```
 ## 1D two materials.
 ```
 python rte_rg_sigma.py epsi bc_loss_weight Nx nl nr
