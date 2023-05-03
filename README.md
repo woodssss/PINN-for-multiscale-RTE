@@ -1,10 +1,10 @@
 # Introduction
-This project provides codes for paper [Solving multiscale steady radiative transfer equation using neural networks with uniform stability](https://link.springer.com/article/10.1007/s40687-022-00345-z). In this project, we apply PINN to steady state of radiative transfer equation(RTE). The main difficulty comes from
-the significantly varying magnitude of the Knusen number. 
+This project provides codes for paper [Solving multiscale steady radiative transfer equation using neural networks with uniform stability](https://link.springer.com/article/10.1007/s40687-022-00345-z). The main difficulty comes from
+the significantly varying magnitude of the Knusen number. To overcome the multiscale issue, we propsed an novel PINN loss based on the micro macro decomposition for the steady state of radiative transfer equation(RTE). 
 
 
 # Usage of code
-In following example, user needs to input some parameters. The epsi is the Knudsen number, bc_loss_weight is the weight of boundary loss
+The following codes require some input parameters. The epsi is the Knudsen number, bc_loss_weight is the weight of boundary loss
 function, Nx is number of grid points on x direction, nl is number of hidden layers, nr is number of neurons in each hidden layer.
 ## 1D isotropic case with constant inflow B.C.
 ```
