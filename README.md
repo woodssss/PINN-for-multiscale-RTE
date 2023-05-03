@@ -1,5 +1,5 @@
 # Introduction
-This project apply PINN to steady state of radiative transfer equation(RTE). The main difficulty comes from
+This project provides codes for paper [Solving multiscale steady radiative transfer equation using neural networks with uniform stability](https://link.springer.com/article/10.1007/s40687-022-00345-z). In this project, we apply PINN to steady state of radiative transfer equation(RTE). The main difficulty comes from
 the significantly varying magnitude of the Knusen number. 
 
 
